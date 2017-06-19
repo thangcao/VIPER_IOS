@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
     @IBAction func actionLogin(_ sender: Any) {
         if let username = username.text
             , let password = password.text {
-            if username.isEmpty , password.isEmpty {
+            if !username.isEmpty , !password.isEmpty {
                 let account = Account(name: username, password: password)
                 presenter.login(account: account)
             } else {

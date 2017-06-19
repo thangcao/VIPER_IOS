@@ -25,6 +25,10 @@ extension UIStoryboard {
     static var customerFlowStoryboard: UIStoryboard {
         return UIStoryboard(name: "CustomerFlowStoryboard", bundle: nil)
     }
+    
+    static var customerSearchStoryboard: UIStoryboard {
+        return UIStoryboard(name: "CustomerSearchStoryboard", bundle: nil)
+    }
 }
 
 // MARK: - ViewController inside storyboard
@@ -41,6 +45,13 @@ extension UIStoryboard {
             fatalError("CutomerFlowViewController couldn't be found in Storyboard file")
         }
         return vc as! CustomerViewController
+    }
+    
+    var customerSearch: CustomerSearchViewController {
+        guard let vc = StoryboardController.initialViewControllerForStoryboardWithName(name: "CustomerSearchStoryboard") else {
+            fatalError("CutomerFlowViewController couldn't be found in Storyboard file")
+        }
+        return vc as! CustomerSearchViewController
     }
     
 }

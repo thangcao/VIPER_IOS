@@ -9,11 +9,15 @@
 import UIKit
 
 class CustomerViewController: UITabBarController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    override func viewWillAppear(_ animated: Bool) {
+         super.viewWillAppear(animated)
+        let tabSearch = CustomerSearchRouter.assembleModule()
+        let tabOneBarItem = UITabBarItem(title: "Tab Search", image: nil, selectedImage: nil)
+        
+        tabSearch.tabBarItem = tabOneBarItem
+        
+        viewControllers = [tabSearch]
     }
 
 }

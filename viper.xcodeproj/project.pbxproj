@@ -21,10 +21,17 @@
 		B0EC81171EF685C800A00501 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81161EF685C800A00501 /* LoginInteractor.swift */; };
 		B0EC81191EF6C9B200A00501 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81181EF6C9B200A00501 /* LoginRouter.swift */; };
 		B0EC811E1EF6CDB100A00501 /* ExUiStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC811D1EF6CDB100A00501 /* ExUiStoryBoard.swift */; };
-		B0EC81221EF6DFEA00A00501 /* CustomerSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EC81211EF6DFEA00A00501 /* CustomerSearch.storyboard */; };
+		B0EC81221EF6DFEA00A00501 /* CustomerSearchStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EC81211EF6DFEA00A00501 /* CustomerSearchStoryboard.storyboard */; };
 		B0EC81241EF6E07600A00501 /* CustomerMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EC81231EF6E07600A00501 /* CustomerMap.storyboard */; };
 		B0EC81261EF6E08800A00501 /* CustomerUserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EC81251EF6E08800A00501 /* CustomerUserProfile.storyboard */; };
 		B0EC81281EF6E0F800A00501 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81271EF6E0F800A00501 /* CustomerViewController.swift */; };
+		B0EC812A1EF8063100A00501 /* CustomerSearchContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81291EF8063100A00501 /* CustomerSearchContract.swift */; };
+		B0EC812C1EF8095C00A00501 /* CustomerSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC812B1EF8095C00A00501 /* CustomerSearchViewController.swift */; };
+		B0EC812E1EF80D6300A00501 /* ItemSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC812D1EF80D6300A00501 /* ItemSearchCell.swift */; };
+		B0EC81301EF80E8D00A00501 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC812F1EF80E8D00A00501 /* Store.swift */; };
+		B0EC81341EF81D2900A00501 /* CustomerSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81331EF81D2900A00501 /* CustomerSearchPresenter.swift */; };
+		B0EC81361EF824D700A00501 /* CustomerSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81351EF824D700A00501 /* CustomerSearchInteractor.swift */; };
+		B0EC81381EF8251B00A00501 /* CustomerSearchRotuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC81371EF8251B00A00501 /* CustomerSearchRotuer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +72,17 @@
 		B0EC81161EF685C800A00501 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		B0EC81181EF6C9B200A00501 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		B0EC811D1EF6CDB100A00501 /* ExUiStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExUiStoryBoard.swift; sourceTree = "<group>"; };
-		B0EC81211EF6DFEA00A00501 /* CustomerSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomerSearch.storyboard; sourceTree = "<group>"; };
+		B0EC81211EF6DFEA00A00501 /* CustomerSearchStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomerSearchStoryboard.storyboard; sourceTree = "<group>"; };
 		B0EC81231EF6E07600A00501 /* CustomerMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomerMap.storyboard; sourceTree = "<group>"; };
 		B0EC81251EF6E08800A00501 /* CustomerUserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomerUserProfile.storyboard; sourceTree = "<group>"; };
 		B0EC81271EF6E0F800A00501 /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		B0EC81291EF8063100A00501 /* CustomerSearchContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSearchContract.swift; sourceTree = "<group>"; };
+		B0EC812B1EF8095C00A00501 /* CustomerSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSearchViewController.swift; sourceTree = "<group>"; };
+		B0EC812D1EF80D6300A00501 /* ItemSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSearchCell.swift; sourceTree = "<group>"; };
+		B0EC812F1EF80E8D00A00501 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B0EC81331EF81D2900A00501 /* CustomerSearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSearchPresenter.swift; sourceTree = "<group>"; };
+		B0EC81351EF824D700A00501 /* CustomerSearchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSearchInteractor.swift; sourceTree = "<group>"; };
+		B0EC81371EF8251B00A00501 /* CustomerSearchRotuer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerSearchRotuer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,12 +199,13 @@
 		B0EC80EE1EF64AD000A00501 /* search */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC813A1EF835AA00A00501 /* contract */,
 				B0EC80F51EF64B7400A00501 /* view */,
+				B0EC80F11EF64B4300A00501 /* presenter */,
+				B0EC80F21EF64B5400A00501 /* interactor */,
 				B0EC80F41EF64B6200A00501 /* router */,
 				B0EC80F31EF64B5B00A00501 /* entity */,
-				B0EC80F21EF64B5400A00501 /* interactor */,
-				B0EC80F11EF64B4300A00501 /* presenter */,
-				B0EC81211EF6DFEA00A00501 /* CustomerSearch.storyboard */,
+				B0EC81211EF6DFEA00A00501 /* CustomerSearchStoryboard.storyboard */,
 			);
 			name = search;
 			sourceTree = "<group>";
@@ -214,6 +229,7 @@
 		B0EC80F11EF64B4300A00501 /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC81331EF81D2900A00501 /* CustomerSearchPresenter.swift */,
 			);
 			name = presenter;
 			sourceTree = "<group>";
@@ -221,6 +237,7 @@
 		B0EC80F21EF64B5400A00501 /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC81351EF824D700A00501 /* CustomerSearchInteractor.swift */,
 			);
 			name = interactor;
 			sourceTree = "<group>";
@@ -228,6 +245,7 @@
 		B0EC80F31EF64B5B00A00501 /* entity */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC812F1EF80E8D00A00501 /* Store.swift */,
 			);
 			name = entity;
 			sourceTree = "<group>";
@@ -235,6 +253,7 @@
 		B0EC80F41EF64B6200A00501 /* router */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC81371EF8251B00A00501 /* CustomerSearchRotuer.swift */,
 			);
 			name = router;
 			sourceTree = "<group>";
@@ -242,6 +261,8 @@
 		B0EC80F51EF64B7400A00501 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC812B1EF8095C00A00501 /* CustomerSearchViewController.swift */,
+				B0EC812D1EF80D6300A00501 /* ItemSearchCell.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -329,13 +350,13 @@
 		B0EC810E1EF6560700A00501 /* login */ = {
 			isa = PBXGroup;
 			children = (
+				B0EC81391EF8359400A00501 /* contract */,
+				B0EC80F61EF64B9000A00501 /* view */,
 				B0EC80FA1EF64BB400A00501 /* presenter */,
 				B0EC80F91EF64BAC00A00501 /* interactor */,
-				B0EC80F81EF64BA500A00501 /* entity */,
 				B0EC80F71EF64B9D00A00501 /* router */,
-				B0EC80F61EF64B9000A00501 /* view */,
+				B0EC80F81EF64BA500A00501 /* entity */,
 				B0EC80FE1EF64FBA00A00501 /* LoginStoryboard.storyboard */,
-				B0EC81101EF656CE00A00501 /* LoginContract.swift */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -356,6 +377,22 @@
 				B0EC811D1EF6CDB100A00501 /* ExUiStoryBoard.swift */,
 			);
 			name = extensions;
+			sourceTree = "<group>";
+		};
+		B0EC81391EF8359400A00501 /* contract */ = {
+			isa = PBXGroup;
+			children = (
+				B0EC81101EF656CE00A00501 /* LoginContract.swift */,
+			);
+			name = contract;
+			sourceTree = "<group>";
+		};
+		B0EC813A1EF835AA00A00501 /* contract */ = {
+			isa = PBXGroup;
+			children = (
+				B0EC81291EF8063100A00501 /* CustomerSearchContract.swift */,
+			);
+			name = contract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,7 +505,7 @@
 				B0EC80C71EF63C2100A00501 /* LaunchScreen.storyboard in Resources */,
 				B0EC81261EF6E08800A00501 /* CustomerUserProfile.storyboard in Resources */,
 				B0EC81071EF6548100A00501 /* CustomerFlowStoryboard.storyboard in Resources */,
-				B0EC81221EF6DFEA00A00501 /* CustomerSearch.storyboard in Resources */,
+				B0EC81221EF6DFEA00A00501 /* CustomerSearchStoryboard.storyboard in Resources */,
 				B0EC81241EF6E07600A00501 /* CustomerMap.storyboard in Resources */,
 				B0EC80C41EF63C2100A00501 /* Assets.xcassets in Resources */,
 				B0EC80FF1EF64FBA00A00501 /* LoginStoryboard.storyboard in Resources */,
@@ -496,14 +533,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EC81361EF824D700A00501 /* CustomerSearchInteractor.swift in Sources */,
+				B0EC812E1EF80D6300A00501 /* ItemSearchCell.swift in Sources */,
 				B0EC81151EF6645200A00501 /* Account.swift in Sources */,
+				B0EC81341EF81D2900A00501 /* CustomerSearchPresenter.swift in Sources */,
 				B0EC81131EF65FA700A00501 /* LoginPresenter.swift in Sources */,
 				B0EC81171EF685C800A00501 /* LoginInteractor.swift in Sources */,
 				B0EC81281EF6E0F800A00501 /* CustomerViewController.swift in Sources */,
 				B0EC811E1EF6CDB100A00501 /* ExUiStoryBoard.swift in Sources */,
+				B0EC812C1EF8095C00A00501 /* CustomerSearchViewController.swift in Sources */,
+				B0EC81301EF80E8D00A00501 /* Store.swift in Sources */,
+				B0EC812A1EF8063100A00501 /* CustomerSearchContract.swift in Sources */,
 				B0EC80FC1EF64CC300A00501 /* LoginViewController.swift in Sources */,
 				B0EC81111EF656CE00A00501 /* LoginContract.swift in Sources */,
 				B0EC81191EF6C9B200A00501 /* LoginRouter.swift in Sources */,
+				B0EC81381EF8251B00A00501 /* CustomerSearchRotuer.swift in Sources */,
 				B0EC80BD1EF63C2100A00501 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -739,6 +783,7 @@
 				B0EC80E31EF63C2100A00501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0EC80E41EF63C2100A00501 /* Build configuration list for PBXNativeTarget "viperTests" */ = {
 			isa = XCConfigurationList;
@@ -747,6 +792,7 @@
 				B0EC80E61EF63C2100A00501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0EC80E71EF63C2100A00501 /* Build configuration list for PBXNativeTarget "viperUITests" */ = {
 			isa = XCConfigurationList;
@@ -755,6 +801,7 @@
 				B0EC80E91EF63C2100A00501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
